@@ -44,8 +44,37 @@
             <groupId>com.github.jagrosh</groupId>
             <artifactId>jda-utilities</artifactId>
             <version>3.0.5</version>
-            <scope>compile</scope>
             <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jagrosh</groupId>
+            <artifactId>jda-utilities-command</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jagrosh</groupId>
+            <artifactId>jda-utilities-commons</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jagrosh</groupId>
+            <artifactId>jda-utilities-doc</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jagrosh</groupId>
+            <artifactId>jda-utilities-examples</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jagrosh</groupId>
+            <artifactId>jda-utilities-menu</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jagrosh</groupId>
+            <artifactId>jda-utilities-oauth2</artifactId>
+            <version>3.0.5</version>
         </dependency>
 
         <!-- Music Dependencies -->
