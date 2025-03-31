@@ -8,6 +8,13 @@ FROM openjdk:11-jre-slim
 
 WORKDIR /app
 COPY --from=builder /app/target/JMusicBot-Snapshot-All.jar ./JMusicBot.jar
-COPY config.txt .
+COPY config.txt ./config.txt
+
+# Create Playlists directory
+RUN mkdir -p Playlists
+
+# Set environment variables with defaults
+ENV TOKEN=""
+ENV OWNER_ID=""
 
 CMD ["java", "-jar", "JMusicBot.jar"] 

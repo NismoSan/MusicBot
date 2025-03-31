@@ -1,0 +1,10 @@
+.git
+.github
+.gitignore
+target/
+Playlists/
+*.iml
+.idea/
+.settings/
+.classpath
+.project 
