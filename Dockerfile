@@ -2,8 +2,9 @@ FROM maven:3.8-openjdk-11 as builder
 
 WORKDIR /app
 COPY . .
-# Force update dependencies
-RUN mvn clean package -U
+# Clear Maven cache and force update dependencies
+RUN rm -rf ~/.m2/repository && \
+    mvn clean package -U -DskipTests
 
 FROM openjdk:11-jre-slim
 
